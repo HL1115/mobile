@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>诚邀加盟</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">	
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">  
+	  	<script src="js/jquery.min.js"></script>
+		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+		<style>     
+			*{
+				margin: 0;
+				padding :0;
+			}
+			a{
+				text-decoration: none;
+			}
+			/* .footer  两个按钮的位置  */
+			.footer{
+				 z-index:999; 
+				 position:fixed; 
+				 bottom:0; 
+				 left:0; 
+				 width: 100%; 
+				 height:40px;
+				 background: #ccc;
+				 font-size: 18px;
+			}
+			.footer a{
+				color: #fff;
+			}
+			.footer>button{
+				float: left;
+				width: 44%;
+				border: none;
+				height: 40px;
+				margin-left: 4%;
+				color: #fff;
+				background-color: #f00;
+			}
+		  	.info{
+			  	height: 100px;
+			  	width: 100%;
+			  	color: red;
+			  	font-size: 20px;
+			  	text-align: center;
+		  	
+		  	}
+		  	.form{
+		  		padding-bottom: 109px;
+		  	}
+		  	.control-label{
+		  		padding-top: 7px;
+		  	}
+		</style> 
+	</head>
+	<body>
+		<img src="img/demo.jpg" width="100%" height="100%"/>
+		<form id="form" class="form-horizontal form">
+  			
+	  		<div class="form-group">
+	    		<label for="inputEmail2" class="col-xs-offset-1 col-xs-3 control-label">所在城市</label>
+	    		<div class="col-xs-7">
+	      			<input type="text" class="form-control" id="inputEmail2" placeholder="请填写您的意向城市区县">
+	    		</div>
+	  		</div>
+	  		<div class="form-group">
+	    		<label for="inputEmail3" class="col-xs-offset-1 col-xs-3 control-label">真实姓名</label>
+	    		<div class="col-xs-7">
+	      			<input type="text" class="form-control" id="inputEmail3" placeholder="请填写您的姓名">
+	    		</div>
+	  		</div>
+	  		<div class="form-group">
+	    		<label for="inputEmail1" class="col-xs-offset-1 col-xs-3 control-label">联系电话</label>
+	    		<div class="col-xs-7">
+	      			<input type="text" class="form-control" id="inputEmail1" placeholder="请填写您的手机">
+	    		</div>
+	  		</div>
+  			<div class="form-group">
+    			<div class="col-xs-offset-3 col-xs-6">
+      				<button type="submit" class="btn  btn-danger btn-block">提交开启致富之路</button>
+    			</div>
+  			</div>
+		</form>
+      	<div class='footer'> 
+			<button class="left">拨打电话</button>
+			<button class="right"><a href="#form">商务合作</a></button>
+      	</div>
+		
+	</body>
+</html>
